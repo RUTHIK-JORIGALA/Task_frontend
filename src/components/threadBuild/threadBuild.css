@@ -1,0 +1,78 @@
+.thread{
+    padding:0 10px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background: rgba(254, 255, 192, 0.2);
+    border: 0.1px solid rgba(0, 0, 0, 0.4);
+}
+.thread p{
+    margin: 0;
+}
+.under-thread{
+    margin: 10px;
+}
+.sub-threads{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+.sub-thread{
+    background: rgba(0, 0, 0, 0.05);
+    
+    border: 0.01px solid #c8c5c5;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: #000;
+}
+.sub-thread p{
+    margin: 0;
+}
+textarea{
+    border:15px;
+}
+.sub-interpretion{
+    background: #FFFFFF;
+    border: 0.1px solid gray;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.sub-interpretion p{
+    margin: 0;
+}
+.task-icon-drop{
+    display: flex;
+    height: 32px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.task-dropdown{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    /* width: 90px; */
+}
+.task-dropdown p{
+    margin: 0;
+    padding: 3px;
+}
+.summary{
+    background: rgba(0, 0, 0, 0.05);
+
+    border: 0.1px solid #333333;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.summary p{
+    margin: 0;
+}
+.summary-text{
+    width: 98%;
+}
+.summary-text:focus{
+    outline: none;
+}

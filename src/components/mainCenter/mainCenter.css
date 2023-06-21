@@ -1,0 +1,80 @@
+.main-center{
+    width: 80%;
+    margin: auto ;
+}
+.center-header{
+    display: flex;
+    justify-content: space-between;
+}
+.project-heading{
+    font-family: 'Poppins';
+    color: #0029FF;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+.main-description{
+    background: #E9ECEF;
+    height: 125px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.btn{
+    width: 90px;
+    height: 36px;
+    border-radius: 10px;
+    background: #0029FF;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins';
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tasks-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    
+}
+.task{
+    padding: 0;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 500px;
+}
+.task-description{
+    padding: 0 10px;
+}
+.task-title{
+    height: 50px;
+    background-color: #000;
+    border-radius: 13px 13px 0 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.icon-task{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    color: #000;
+    text-align: center;
+    position: absolute;
+    right: 6%;
+}
+
+.task-heading{
+    margin: 0;
+   
+    
+}
+.inner-container{
+    padding: 10px;
+}

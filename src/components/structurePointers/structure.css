@@ -1,0 +1,40 @@
+
+input{
+    width: 100%;
+    background: #FCFBFB;
+    box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    border: none;
+}
+button{
+    border: none;
+    color: #616161;
+    background-color: #fff;
+}
+.options{
+    background: #FCFBFB;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.18);
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    padding: 5px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    
+}
+.row2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.row2 button{
+    background-color: #EBEBEB;
+}
+.title-input{
+height: 30px;
+}
+.content-input{
+    height: 100px;
+}
